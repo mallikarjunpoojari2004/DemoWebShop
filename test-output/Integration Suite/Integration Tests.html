@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Integration Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Integration Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Oct 18 21:42:43 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>189 seconds (189327 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>IntegrationGrp </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='cart.CartTest.verifyCartPageOpens()'><b>verifyCartPageOpens</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-1733903473" onClick='toggleBox("Output-1733903473", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1733903473" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1733903473">
+TC-CART-01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>cart.CartTest@198b6731</td></tr>
+<tr>
+<td title='cart.CartTest.verifyAddedProductAppears()'><b>verifyAddedProductAppears</b><br>Test class: cart.CartTest<br/>
+<a href="#Output-1899609393" onClick='toggleBox("Output-1899609393", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1899609393" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1899609393">
+TC-CART-02 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>cart.CartTest@198b6731</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyCheckoutPageOpens()'><b>verifyCheckoutPageOpens</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-1368128912" onClick='toggleBox("Output-1368128912", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1368128912" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1368128912">
+TC-CHK-01 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>checkout.CheckoutTest@7817fd62</td></tr>
+<tr>
+<td title='login.SignupLoginTest.validLoginTest()'><b>validLoginTest</b><br>Test class: login.SignupLoginTest<br/>
+<a href="#Output-665317128" onClick='toggleBox("Output-665317128", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-665317128" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-665317128">
+TC-AUTH-06 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>login.SignupLoginTest@327514f</td></tr>
+<tr>
+<td title='checkout.CheckoutTest.verifyCheckoutTitle()'><b>verifyCheckoutTitle</b><br>Test class: checkout.CheckoutTest<br/>
+<a href="#Output-1674390738" onClick='toggleBox("Output-1674390738", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1674390738" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1674390738">
+TC-CHK-03 Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>checkout.CheckoutTest@7817fd62</td></tr>
+</table><p>
+</body>
+</html>

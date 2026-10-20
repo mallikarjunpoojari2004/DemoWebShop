@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Batch Suite">
+    <test name="All Test Classes">
+        <classes>
+            <class name="login.SignupLoginTest"/>
+            <class name="products.ProductTest"/>
+            <class name="cart.CartTest"/>
+            <class name="checkout.CheckoutTest"/>
+            <class name="logout.LogoutTest"/>
+        </classes>
+    </test>
+</suite>
